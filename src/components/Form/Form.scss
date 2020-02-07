@@ -1,0 +1,27 @@
+form {
+  display: flex;
+  flex-direction: column;
+  width: 30em;
+
+  h2 {
+    color: #282C34;
+  }
+
+  input {
+    font-size: 1em;
+    height: 3em;
+    margin: 1em;
+    text-indent: 1em;
+  }
+
+  button {
+    align-self: center;
+    font-size: 1em;
+    height: 3em;
+    width: 10em;
+
+    &:hover {
+      background-color: #FF5733
+    }
+  }
+}
